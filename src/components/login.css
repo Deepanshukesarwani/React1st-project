@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+.heading{
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight:bolder;
+}
+.background1{
+  background-image:url('../asset/login_image.jpeg');
+   /* background-size: cover; */
+   
+  position: fixed;
+  display: flex;
+   box-sizing: border-box;
+   align-items: center;
+   justify-content: center;
+   padding: 10%;
+   height: 100vh;
+   width: 100vw;
+}
+.form-group input{
+  margin: 0.5rem;
+
+}
+.form-group{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.logincontainer{
+  background-image: url('../asset/bacground3.jpg');
+  background-color: red;
+  background-size: cover;
+  box-sizing: border-box;
+  /* padding-bottom: 1rem; */
+  position: absolute;
+  margin-top: 0vh;
+  margin-left: -3.3vw;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  width: 70rem;
+  height: 30rem;
+  overflow: hidden;
+}
+.login{
+  background-color: white;
+  border-radius: 20px;
+  /* box-sizing: border-box; */
+  margin-top: 2.5rem;
+  margin-left: 1.8rem;
+  overflow: hidden;
+  display: flex;
+  width: 23rem;
+  height: 25rem;
+}
+#Username{
+  outline-color: blue;
+  font-family: 'Baloo Bhai 2', cursive;
+  /* position: absolute; */
+  /* top: 3vh; */
+}
+.username{
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight:700;
+}
+#Password{
+  outline-color: blue;
+  font-family: 'Baloo Bhai 2', cursive;
+  /* position: absolute; */
+  /* top: 3vh; */
+}
+.password{
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight:700;
+}
+.content{
+  /* margin-top:5rem; */
+  width: 30rem;
+   /* margin-top: 1rem; */
+   display:flex ;
+   justify-content: center;
+   flex-direction: column;
+   padding: 1rem;
+  /* justify-content: space-around; */
+  /* flex-direction: column; */
+  /* text-align: center; */
+  /* background-size: cover; */
+  /* background-color: black; */
+  /* position: relative; */
+  /* margin-top: 5rem; */
+  
+}
+.loginbutton{
+  background-color: blue;
+  text-align: center;
+  width: 4rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 1rem;
+  /* text-underline-offset: none; */
+  text-decoration: none;
+}
+.loginbut{
+  color: white;
+  text-decoration: none;
+}
+@media screen and(max-width:1272px){
+  /* login whitebox */
+  .login{
+    width: 100%;
+    /* margin: auto; */
+
+  }
+  .logincontainer{
+    
+    /* color: white; */
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
