@@ -5,9 +5,12 @@ import Login from "./components/Login";
 import Dialogbox from "./components/Dialogbox"
 import Homepage from './components/Homepage'
 import Headphone_section from './components/Headphone_section'
+import ClientPage from './components/Website/Client_page'
+import Music_section from './components/Music_section'
+import About_section from './components/About'
+import Clothes_section from './components/Clothes'
 
 function App() {
-  let name = "hello";
   return (
     <>
     
@@ -16,6 +19,14 @@ function App() {
       <Route exact path='/Dialogbox' element={<Dialogbox/>}/>
       <Route exact path='/Homepage' element={<Homepage/>}/>
       <Route exact path='/Headphone' element={<Headphone_section/>}/>
+      <Route exact path="/Client_page" element={<ClientPage/>}/>
+      <Route exact path="/Music_section" element={<Music_section/>}/>
+      <Route exact path="/About_section" element={<About_section/>}/>
+      <Route exact path="/Clothes_section" element={<Clothes_section/>}/>
+      
+    
+
+      
     </Routes>
     </>
   );

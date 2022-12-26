@@ -12,12 +12,13 @@
 }
 .container .sidebar{
   /* background: rgb(5, 68, 104); */
-  background: rgb(19, 119, 149);
-  position: fixed;
+  /* background: rgb(19, 119, 149); */
+  background: #10558d;
+  position: absolute;
   top: 0;
   left: 0;
   width: 225px;
-  height: 100%;
+  height: 140%;
   padding: 20px 0;
   transition: all 0.5s ease;
 }
@@ -49,3 +50,9 @@
   width: 30px;
   display: inline-block;  
 }
+/* .Products{
+  display: flex;
+  float: right;
+} */
+/* .dropdown-content a:hover {background-color: #ddd;} */
+.icon:hover .dropdown-content {display: block;}

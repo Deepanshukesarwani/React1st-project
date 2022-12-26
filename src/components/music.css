@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body_music{
+    /* pos */
+    position:absolute;
+    /* background-color: red; */
+    margin-left: 230px;
+    display: inline-block;
+    display: flex;
+    float: left;
+}
+/* .body_music .card2{
+    /* margin-left: 10px; */
+/* } */ 

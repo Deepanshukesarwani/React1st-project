@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body_clothes{
+    position:absolute;
+    margin-left: 230px;
+    display: flex;
+}
+.cardC1{
+    margin: 10px;
+}
+.cardC2{
+    margin: 10px;
+}

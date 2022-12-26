@@ -3,7 +3,7 @@ import './imageslider.css'
 import Slideimage1 from '../asset/slide1.jpg'
 import Slideimage2 from '../asset/slide2.jpg'
 import Slideimage3 from '../asset/slide3.jpg'
-import Headphone_section from '../components/Headphone_section'
+// import Headphone_section from '../components/Headphone_section'
 const slider = () => {
   // let a=document.querySelectorAll('.slide');
 // let pic=0;
@@ -37,7 +37,7 @@ else if(pic===3){
       </button>
       <button id="next" className='sliderBtn' onClick={Name}>&gt;</button>
       <div className='slideshow'>
-        <a href={Headphone_section}><img src={Slideimage1} id="img1" alt="slide1" /></a>
+        <a href='/Headphone'><img src={Slideimage1} id="img1" alt="slide1" /></a>
       </div>
 
     </div>
